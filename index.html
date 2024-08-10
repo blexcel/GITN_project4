@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment4</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         table{
             margin: auto;
@@ -22,7 +23,10 @@
             height: 50px;
         }
         tr:nth-child(even) {
-            background-color: chocolate;
+            background-color: darkgray;
+        }
+        .checked {
+        color: orange;
         }
     </style>
 </head>
@@ -41,7 +45,13 @@
             <td rowspan="3">Louis Vuiton</td>
             <td>Elegant Packaging</td>
             <td>$2,700</td>
-            <td>4.5</td>
+            <td>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </td>
             <td>NO</td>
         </tr>
 
@@ -49,7 +59,13 @@
             <th style="background-color: #D6EEEE;">Product 2</th>
             <td>Resale Value</td>
             <td>$3,000</td>
-            <td>3.7</td>
+            <td>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </td>
             <td>YES</td>
         </tr>
 
@@ -57,7 +73,13 @@
             <th style="background-color: #D6EEEE;">Product 3</th>
             <td>High Price</td>
             <td>$3,600</td>
-            <td>4.0</td>
+            <td>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </td>
             <td>YES</td>
         </tr>
     </table>
